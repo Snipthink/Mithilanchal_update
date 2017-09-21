@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:id="@+id/custom_all_event_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:contentDescription="Hello"
+            android:id="@+id/icon_event_all"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/puj_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/all_event_icon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/puj_narakniwaran"
+            android:textColor="@color/event_icon_name"
+             />
+
+    </LinearLayout>
+

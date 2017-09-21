@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f605121b"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/h2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+
+        android:id="@+id/line_up"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0976ac" />
+
+    <TextView
+        android:id="@+id/puja_header12"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_up"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+
+        android:paddingBottom="5dp"
+        android:paddingTop="14dp"
+        android:text="All Events"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <View
+        android:id="@+id/line_down"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/puja_header12"
+        android:background="@color/event_color_mith" />
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/line_down"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/all_event"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+
+        android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="1000dp">
+        <include layout="@layout/event_all_view" />
+</RelativeLayout>
+</LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

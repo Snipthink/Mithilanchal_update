@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_area"
+            android:title="Area" />
+
+    </group>
+
+    <item
+        android:iconTint="@android:color/white"
+        android:title="Developing Mithila">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/Invention"
+                android:title="Invention" />
+            <item
+                android:id="@+id/Agriculture"
+                android:title="Agriculture" />
+            <item
+                android:id="@+id/Education"
+                android:title="Education" />
+
+                <item
+                    android:id="@+id/Sports"
+                    android:title="Sports" />
+
+                <item
+                    android:id="@+id/nav_suggest_mithila"
+                    android:title="Suggest Mithila" />
+
+            </group>
+        </menu>
+
+    </item>
+</menu>

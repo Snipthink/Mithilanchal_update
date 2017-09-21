@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout_qwe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="horizontal">
+
+    <Button
+
+        android:id="@+id/yesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yesterday"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+
+        android:id="@+id/todays_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+
+        android:id="@+id/tomorrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomorrow"
+        android:textColor="@color/colorAccent" />
+
+
+</LinearLayout>

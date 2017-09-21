@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Mithila </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="feedback">Here you can write about us</string>
+
+
+    <string name="contact_us">You can contact us </string>
+
+
+    <string name="about_us">We are working on crafting work</string>
+
+
+    <string name="exit">Do you really want to exit ?</string>
+
+
+    <string name="yes">Yes</string>
+    <string name="No">No</string>
+
+
+    <!-- TODO: Sanskar_event -->
+
+    <string name="san_chatiyr">Chhatiyar</string>
+    <string name="san_mundan">Mundan</string>
+    <string name="san_uplayen">Uplayen</string>
+    <string name="san_vivah">Vivah</string>
+    <string name="san_duiragman">Duiragman</string>
+    <string name="san_madushramni">Madushramni</string>
+    <string name="san_kojegra">Kojegra</string>
+    <string name="san_badsavitri">Batsaabitri</string>
+
+
+    <!-- TODO: Poojaa_event -->
+
+
+    <string name="puj_sarswati">Sarswati\nPooja</string>
+    <string name="puj_durgapuja">Durga\nPooja</string>
+    <string name="puj_satyanaran">Satnarayan\nPooja</string>
+    <string name="puj_lakshmi">Lakshmi\nPooja</string>
+
+
+    <string name="puj_kaali">Kaali Pooja</string>
+    <string name="puj_chaudchan">Chaudchan</string>
+    <string name="puj_shivratri">ShivRatri</string>
+    <string name="puj_devuthan">Devuthaan</string>
+
+    <string name="puj_narakniwaran">NarakNiwaran\nChaturdashi</string>
+    <string name="puj_samachakeva">Shama\nChakeva</string>
+    <string name="puj_bishwakarma">Bishwakarma\nPooja</string>
+    <string name="puj_zimutwahan">Zeemutwahan\nPooja</string>
+
+    <string name="puj_Nawann">Nawann</string>
+    <string name="puj_jarror">Jarror</string>
+    <string name="puj_basant">Bashant\nPanchami</string>
+    <string name="puj_tilasakrain">Tilaakraint</string>
+    <string name="puj_juidsital">Juid sheetal</string>
+    <string name="puj_holi">Holi</string>
+    <string name="puj_chhaith">Chhaith</string>
+    <string name="puj_chitra_gupt">Chitragupt\nPooja</string>
+
+
+    <!-- TODO: All_event -->
+
+
+    <string name="all_event_Makarsankranti">Makarsankrnti</string>
+
+
+    <!-- TODO: All_event_day -->
+    <string name="all_event_newyear">New Year</string>
+    <string name="all_event_republic_day">Republic Day</string>
+    <string name="all_independent_day">Independence Day</string>
+    <string name="all_event_last_yearday">End_year</string>
+    <string name="all_event_fathersday"> Father s Day</string>
+    <string name="all_event_mothersday"> Mother s Day</string>
+    <string name="all_event_earthday">Earth day</string>
+    <string name="all_event_labour">Labour day</string>
+    <string name="all_event_">Labour day</string>
+    <string name="all_event_friendsday">Friendsship Day</string>
+
+    <string name="all_event_bloodday">Blood Day</string>
+    <string name="all_event_canceerday">Cancer Day</string>
+    <string name="all_event_gandhi_jayanti">Gaandhi Jayanti</string>
+
+
+    <string name="all_event_bhaiduj">Bhaidooj</string>
+    <string name="all_event_rakshabandhan">Raksha bandhan</string>
+
+    <string name="all_event_valentins_weakend">Valantine_weakend</string>
+    <string name="all_event_eidd">Eedd</string>
+    <string name="all_event_christmas">Christmas</string>
+    <string name="all_event_bakred">Bakreed</string>
+    <string name="all_event_muharam">Muharram</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

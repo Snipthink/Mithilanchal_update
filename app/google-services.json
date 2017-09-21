@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "849547074466",
+    "firebase_url": "https://mithilaadmin-34ba5.firebaseio.com",
+    "project_id": "mithilaadmin-34ba5",
+    "storage_bucket": "mithilaadmin-34ba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849547074466:android:96c25f1dcd4e3dbb",
+        "android_client_info": {
+          "package_name": "com.snipthink.abhishek.mithilaadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849547074466-8j8v6p8o11tgcd43g2gb1c3u84hcu0do.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snipthink.abhishek.mithilaadmin",
+            "certificate_hash": "43a5462504d48b95882f51e1eee2ece495a673ed"
+          }
+        },
+        {
+          "client_id": "849547074466-d91td8o6r5spufobeemb7vchu5nc0oar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKgRW4kryw9d8eCRA_SXSgQXe9FLR_Qk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849547074466-d91td8o6r5spufobeemb7vchu5nc0oar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849547074466:android:3956d8cc79285446",
+        "android_client_info": {
+          "package_name": "com.snipthink.abhishek.mithilanchal_update"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849547074466-5tr7fjuvg0sid5d4rubsuugovue2r7j2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snipthink.abhishek.mithilanchal_update",
+            "certificate_hash": "43a5462504d48b95882f51e1eee2ece495a673ed"
+          }
+        },
+        {
+          "client_id": "849547074466-d91td8o6r5spufobeemb7vchu5nc0oar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKgRW4kryw9d8eCRA_SXSgQXe9FLR_Qk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849547074466-d91td8o6r5spufobeemb7vchu5nc0oar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

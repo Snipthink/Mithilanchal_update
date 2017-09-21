@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#d908252b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:id="@+id/today_header"
+            android:layout_marginTop="10dp"
+            android:textColor="#e4d6d6"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:foregroundGravity="center_horizontal"
+            android:text="Todays's Event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <ListView
+        android:layout_below="@+id/today_header"
+        android:id="@+id/todays_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+    </RelativeLayout>
+
+

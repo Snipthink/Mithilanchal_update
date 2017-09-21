@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="40dp"
+    android:background="@color/colorAccent"
+    android:backgroundTint="@color/colorAccent"
+    android:gravity="center">
+
+    <android.support.v7.widget.DialogTitle
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/feedback_email"
+        android:text="Hello" />
+
+    <EditText
+        android:id="@+id/feedback_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:hint="your email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+
+        android:id="@+id/feedback_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedback_email"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Your feedback"
+        android:inputType="textAutoCorrect" />
+
+    <Button
+        android:id="@+id/submit_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedback_message"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/cancel_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit_message"
+        android:text="Cancel" />
+
+</RelativeLayout>
+

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollIndicatorDown"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f605121b"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+
+    android:id="@+id/puja_layer_first"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/sarwati_puja_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_p_sar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="@dimen/puj_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/puj_narakniwaran"
+
+            android:textColor="@color/event_icon_name"
+            android:textSize="@dimen/puj_dimen_text" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/puja_durga_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/sarwati_puja_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_p_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="@dimen/puj_dimen_icon"
+            android:textColor="@android:color/white" />
+
+      <TextView
+            android:textSize="@dimen/puj_dimen_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/id_p_sama"
+            android:text="@string/puj_durgapuja"
+            android:textColor="@color/event_icon_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/satyanarawan_bhagwan_puja_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/puja_durga_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_p_satya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="@dimen/puj_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/id_p_chath"
+            android:text="@string/puj_Nawann"
+            android:textColor="@color/event_icon_name"
+            android:textSize="@dimen/puj_dimen_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/saty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/satyanarawan_bhagwan_puja_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_p_lakshmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="@dimen/puj_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/id_p_nark"
+            android:text="@string/puj_lakshmi"
+            android:textColor="@color/event_icon_name"
+            android:textSize="@dimen/puj_dimen_text" />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/puja_layer_first"
+        android:id="@+id/puja_layer_second"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_kali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/chatiyar_name"
+                android:text="@string/puj_zimutwahan"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/l1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_chaud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_sama"
+                android:text="@string/puj_chhaith"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/l2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_shivra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_chath"
+                android:text="@string/puj_shivratri"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/l3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_dev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_nark"
+                android:text="@string/puj_devuthan"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/puja_layer_second"
+        android:id="@+id/puja_layer_third"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/m1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_nark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/chatiyar_name"
+                android:text="@string/puj_sarswati"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/m2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/m1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_sama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_sama"
+                android:text="@string/puj_basant"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/m3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/m2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_bishw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_chath"
+                android:text="@string/puj_chaudchan"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/m4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/m3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_zeetwahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_nark"
+                android:text="@string/puj_bishwakarma"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+<RelativeLayout
+        android:layout_below="@+id/puja_layer_third"
+        android:id="@+id/puja_layer_fourth"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_Nawan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/chatiyar_name"
+                android:text="@string/puj_satyanaran"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/n2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/n1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_jurror"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_sama"
+                android:text="@string/puj_jarror"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/n3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/n2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_basant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:labelFor="@+id/id_p_chath"
+                android:text="@string/puj_holi"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/n4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/n3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_tila_sakraint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_nark"
+                android:text="@string/puj_tilasakrain"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/puja_layer_fourth"
+        android:id="@+id/puja_layer_fifth"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/o1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_juid_seetal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/chatiyar_name"
+                android:text="@string/puj_juidsital"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/o2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/o1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_holi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_sama"
+                android:text="@string/puj_samachakeva"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/o3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/o2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_chhait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_chath"
+                android:text="@string/puj_kaali"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/o4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/o3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_p_chitragupt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_menu_camera"
+                android:padding="@dimen/puj_dimen_icon"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/id_p_nark"
+                android:text="@string/puj_chitra_gupt"
+                android:textColor="@color/event_icon_name"
+                android:textSize="@dimen/puj_dimen_text" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+android:nestedScrollingEnabled="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollIndicatorDown"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f605121b"
+
+
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/chatiyar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/chatiyar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+          android:padding="@dimen/san_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/chatiyar_name"
+            android:text="@string/san_chatiyr"
+            android:textColor="@color/event_icon_name" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/mundan_layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/chatiyar_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_p_sama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+           android:padding="@dimen/san_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/id_p_sama"
+            android:text="@string/san_mundan"
+            android:textColor="@color/event_icon_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/uplayan_id_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/mundan_layer"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_p_chath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="@dimen/san_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/id_p_chath"
+            android:text="@string/san_uplayen"
+            android:textColor="@color/event_icon_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vivah_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/uplayan_id_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_p_nark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="@dimen/san_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/id_p_nark"
+            android:text="@string/san_vivah"
+            android:textColor="@color/event_icon_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/duiragmana_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/vivah_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/duiragman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+          android:padding="@dimen/san_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/duiragman"
+            android:text="@string/san_duiragman"
+            android:textColor="@color/event_icon_name" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/madushrami_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/duiragmana_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/madushramni_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="@dimen/san_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/madushramni_icon"
+            android:text="@string/san_madushramni"
+            android:textColor="@color/event_icon_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kojegra_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/madushrami_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/kojegra_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_camera"
+          android:padding="@dimen/san_dimen_icon"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:labelFor="@+id/kojegra_icon"
+            android:text="@string/san_kojegra"
+            android:textColor="@color/event_icon_name" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</HorizontalScrollView>

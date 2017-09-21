@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#05acc6</color>
+    <color name="colorPrimaryDark">#068497</color>
+    <color name="colorAccent">#026a79</color>
+    <color name="event_header">#e6000e35</color>
+    <color name="icon_text_color">#E6F9FBFF</color>
+
+    <color name="event_color_mith">#f6094a53</color>
+
+    <color name="event_color">#ee04161d</color>
+
+    <color name="event_icon_name">#fcfbfb</color>
+</resources>

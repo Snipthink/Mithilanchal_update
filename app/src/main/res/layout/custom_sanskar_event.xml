@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:background="@color/event_color"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <LinearLayout
+
+            android:id="@+id/top_layou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/img_thumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_species"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/icon_text_color"
+                android:labelFor="@+id/id_p_chath"
+                android:text="@string/san_uplayen"
+                  />
+
+        </LinearLayout>
+
+</LinearLayout>
